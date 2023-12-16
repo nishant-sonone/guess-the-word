@@ -1,0 +1,29 @@
+/* LetterTile.css */
+.letter-tile {
+    border: 2px solid #d3d3d3;
+    min-width: 40px; /* Adjust as needed */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .letter-tile.correct {
+    background-color: #4caf50; /* Green for correct */
+    color: white;
+  }
+  
+  .letter-tile.present {
+    background-color: #ffca28; /* Yellow for present */
+    color: black;
+  }
+  
+  .letter-tile.absent {
+    background-color: #bdbdbd; /* Grey for absent */
+    color: white;
+  }
+  

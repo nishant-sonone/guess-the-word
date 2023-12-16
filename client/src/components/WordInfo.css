@@ -1,0 +1,10 @@
+/* WordInfo.css */
+.word-info {
+    border: 1px solid #d3d6db; /* Light grey border */
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #e3f2fd; /* Very light blue background */
+    text-align: center;
+    border-radius: 5px;
+  }
+  
